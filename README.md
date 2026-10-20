@@ -86,7 +86,7 @@ Teknologi yang direncanakan mengikuti panduan PjBL Pemrograman Berbasis Web.
 | Teknologi | Rencana penggunaan |
 |---|---|
 | HTML5 | Struktur halaman |
-| CSS3 | Tata letak dan responsivitas |
+| CSS3 | Tata letak dan responsivitas UI/UX |
 | JavaScript | Interaksi dasar serta tanggal/waktu |
 | PHP Native | Logika aplikasi, form, session, dan CRUD |
 | MySQL / MariaDB | Penyimpanan data |
