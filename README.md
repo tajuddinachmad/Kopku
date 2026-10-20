@@ -114,8 +114,8 @@ Lihat [`docs/wireframe.md`](docs/wireframe.md) untuk pemetaan kebutuhan ke desai
 ```text
 Kopku/
 ├── assets/
-│   └── images/
-│       └── wireframes/       
+│   └── mockup/
+│              
 ├── css/
 ├── docs/
 │   ├── proposal.md
@@ -171,11 +171,11 @@ Commit harus dibuat secara bertahap. Jangan menggunakan pesan tersebut sebelum p
 
 **Login**
 
-![Mockup Login](assets/wireframe/Login.png)
+![Mockup Login](assets/mockup/Login.png)
 
 **Dashboard**
 
-![Mockup Dashboard](assets/wireframe/Dashboard.png)
+![Mockup Dashboard](assets/mockup/Dashboard.png)
 
 ---
 
