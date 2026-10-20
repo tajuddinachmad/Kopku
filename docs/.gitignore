@@ -1,0 +1,25 @@
+# Editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Log
+*.log
+logs/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies/build output jika nanti digunakan
+vendor/
+node_modules/
+dist/
+build/
+
+# File sementara
+.tmp/
+temp/
