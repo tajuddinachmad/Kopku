@@ -169,6 +169,8 @@ Commit harus dibuat secara bertahap. Jangan menggunakan pesan tersebut sebelum p
 
 ### Preview Mockup
 
+**Tautan Figma:** [Lihat Desain Kopku](https://www.figma.com/make/WRgAqIMfwf1VYrMWDuww2E/Redesign-Kopku-POS-Interface?code-node-id=0-6&p=f&t=Y44RnUNOxbUYRbEE-0&fullscreen=1)
+
 **Login**
 
 ![Mockup Login](assets/mockup/Login.png)
