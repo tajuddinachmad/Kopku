@@ -1,6 +1,6 @@
 # Wireframe Kopku
 
-**Tautan Figma:** [Lihat Desain Kopku]([https://www.figma.com/make/WRgAqIMfwf1VYrMWDuww2E/Redesign-Kopku-POS-Interface?fullscreen=1&t=i5cfjRPlhNYbTuTP-1&code-node-id=0-6](https://www.figma.com/design/yffhptu8cIXB6LpsbnXrpI/Untitled?node-id=0-1&p=f&t=ueUEJbpID5phxeNy-0))
+**Tautan Figma:** [Lihat Desain Kopku](https://www.figma.com/design/yffhptu8cIXB6LpsbnXrpI/Untitled?node-id=0-1&p=f&t=ueUEJbpID5phxeNy-0)
 
 ## 1. Halaman Login
 
