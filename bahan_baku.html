@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopku - Stok Bahan Baku</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Kopku Systems</h2>
+        <div>
+            <span id="live-clock" style="margin-right: 15px;"></span>
+            <a href="index.html">Dashboard</a>
+            <a href="bahan_baku.html">Kelola Stok</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin: 15px 0;">
+            <h1>Daftar Stok Bahan Mentah</h1>
+            <a href="form_bahan.html" class="btn">+ Tambah Bahan Baku</a>
+        </div>
+
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Kode</th>
+                        <th>Nama Bahan</th>
+                        <th>Kategori</th>
+                        <th>Jumlah Stok</th>
+                        <th>Satuan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B-001</td>
+                        <td>Biji Kopi Arabika</td>
+                        <td>Biji Kopi</td>
+                        <td>8.5</td>
+                        <td>Kg</td>
+                        <td>
+                            <a href="form_bahan.html" class="btn btn-warning" style="padding: 4px 8px; font-size: 12px;">Edit</a>
+                            <button class="btn btn-danger" style="padding: 4px 8px; font-size: 12px;">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>B-002</td>
+                        <td>Susu UHT Full Cream</td>
+                        <td>Bahan Cair</td>
+                        <td>2.0</td>
+                        <td>Liter</td>
+                        <td>
+                            <a href="form_bahan.html" class="btn btn-warning" style="padding: 4px 8px; font-size: 12px;">Edit</a>
+                            <button class="btn btn-danger" style="padding: 4px 8px; font-size: 12px;">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>B-003</td>
+                        <td>Paper Cup 12oz</td>
+                        <td>Packaging</td>
+                        <td>120</td>
+                        <td>Pcs</td>
+                        <td>
+                            <a href="form_bahan.html" class="btn btn-warning" style="padding: 4px 8px; font-size: 12px;">Edit</a>
+                            <button class="btn btn-danger" style="padding: 4px 8px; font-size: 12px;">Hapus</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
