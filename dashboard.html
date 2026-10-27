@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopku - Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">Kopku POS</div>
+    <nav>
+      <a href="dashboard.html" class="active">Dashboard</a>
+      <a href="produk.html">Produk</a>
+      <a href="bahan.html">Stok Bahan</a>
+      <a href="index.html">Keluar</a>
+    </nav>
+  </aside>
+  <main class="content">
+    <header class="topbar">
+      <span id="tanggal-waktu"></span>
+      <span>Ayu Dewi • Kasir</span>
+    </header>
+    <div class="page">
+      <div class="page-head">
+        <div>
+          <h1>Dashboard</h1>
+          <p class="muted">Ringkasan kedai hari ini • Data contoh</p>
+        </div>
+      </div>
+
+      <section class="cards">
+        <div class="card"><div class="label">Total produk</div><div class="angka">8</div></div>
+        <div class="card"><div class="label">Bahan baku menipis</div><div class="angka">4</div></div>
+        <div class="card"><div class="label">Transaksi hari ini</div><div class="angka">12</div></div>
+        <div class="card"><div class="label">Total penjualan</div><div class="angka">Rp864.000</div></div>
+      </section>
+
+      <div class="dua-kolom">
+        <section>
+          <h2>Transaksi terbaru</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>No. transaksi</th><th>Waktu</th><th>Kasir</th><th>Item</th><th>Total</th></tr></thead>
+              <tbody>
+                <tr><td>KPK-20261027-012</td><td>10.45</td><td>Ayu Dewi</td><td>3</td><td>Rp72.000</td></tr>
+                <tr><td>KPK-20261027-011</td><td>10.20</td><td>Ayu Dewi</td><td>2</td><td>Rp45.000</td></tr>
+                <tr><td>KPK-20261027-010</td><td>09.58</td><td>Ayu Dewi</td><td>4</td><td>Rp96.000</td></tr>
+                <tr><td>KPK-20261027-009</td><td>09.31</td><td>Ayu Dewi</td><td>1</td><td>Rp25.000</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="card">
+          <h2>Peringatan stok menipis</h2>
+          <ul class="daftar-menipis">
+            <li><span>Es Batu</span><span>3.500 gram</span></li>
+            <li><span>Sirup Karamel</span><span>900 ml</span></li>
+            <li><span>Bubuk Matcha</span><span>450 gram</span></li>
+            <li><span>Gelas Plastik 16 oz</span><span>120 pcs</span></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
