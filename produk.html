@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopku - Produk</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">Kopku POS</div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="produk.html" class="active">Produk</a>
+      <a href="bahan_baku.html">Stok Bahan</a>
+      <a href="index.html">Keluar</a>
+    </nav>
+  </aside>
+  <main class="content">
+    <header class="topbar">
+      <span id="tanggal-waktu"></span>
+      <span>Ayu Dewi &bull; Kasir</span>
+    </header>
+    <div class="page">
+      <div class="page-head">
+        <div>
+          <h1>Data Produk</h1>
+          <p class="muted">Kelola menu yang dijual kedai &bull; Data contoh</p>
+        </div>
+        <a href="form_produk.html" class="btn">+ Tambah Produk</a>
+      </div>
+      <div class="toolbar">
+        <input type="text" data-cari="#tabel-produk" placeholder="Cari nama produk..." aria-label="Cari produk">
+      </div>
+      <div class="table-wrap">
+        <table id="tabel-produk">
+          <thead><tr><th>No</th><th>Nama produk</th><th>Kategori</th><th>Harga</th><th>Aksi</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Espresso</td><td>Kopi</td><td>Rp18.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>2</td><td>Americano</td><td>Kopi</td><td>Rp20.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>3</td><td>Kopi Susu Latte</td><td>Kopi</td><td>Rp25.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>4</td><td>Cappuccino</td><td>Kopi</td><td>Rp25.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>5</td><td>Matcha Latte</td><td>Nonkopi</td><td>Rp25.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>6</td><td>Cokelat Panas</td><td>Nonkopi</td><td>Rp22.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>7</td><td>Croissant</td><td>Makanan</td><td>Rp22.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+            <tr><td>8</td><td>Brownies</td><td>Makanan</td><td>Rp18.000</td><td><a href="form_produk.html" class="btn putih kecil">Edit</a> <button type="button" class="btn putih kecil btn-hapus">Hapus</button></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
