@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kopku - Login</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopku - Login</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="form-card" style="margin-top: 80px;">
-        <h2 style="text-align: center; margin-bottom: 20px;">Login Kopku</h2>
-        <form action="index.html">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" required placeholder="Masukkan username">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" required placeholder="Masukkan password">
-            </div>
-            <button type="submit" class="btn" style="width: 100%;">Masuk ke Sistem</button>
-        </form>
+<body class="login-body">
+<div class="form-card login">
+  <h2 class="judul-tengah">Login Kopku</h2>
+  <form id="form-login" class="form-validasi" novalidate>
+    <div class="pesan"></div>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" required placeholder="Masukkan username">
     </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" required placeholder="Masukkan password">
+    </div>
+    <button type="submit" class="btn" style="width:100%">Masuk ke Sistem</button>
+  </form>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
