@@ -188,6 +188,13 @@ Commit harus dibuat secara bertahap. Jangan menggunakan pesan tersebut sebelum p
 
 ---
 
+## Progres Milestone 2
+
+Halaman statis yang sudah dibuat: login, dashboard, daftar produk, form
+produk, daftar stok bahan baku, dan form bahan baku. Tampilan memakai CSS
+buatan sendiri dan responsif. JavaScript digunakan untuk tanggal/waktu,
+validasi form, pencarian tabel, dan konfirmasi hapus (simulasi).
+
 
 ## Log Penggunaan AI
 
@@ -202,6 +209,7 @@ Commit harus dibuat secara bertahap. Jangan menggunakan pesan tersebut sebelum p
 | 17 Oktober 2026 | **Penyusunan README GitHub** | "Bantu susun README.md untuk Kopku POS yang berisi deskripsi proyek, tujuan, fitur, teknologi, struktur folder, dan informasi tim." | Penyusunan bagian utama README.md. | Memeriksa kembali nama proyek, anggota kelompok, tautan repositori, tautan Figma, dan fitur yang direncanakan. | Draf README tersedia sebagai dokumentasi utama repositori. |
 | 18 Oktober 2026 | **Menampilkan gambar pada README** | "Bagaimana cara menambahkan gambar wireframe dari folder repositori ke dalam README.md menggunakan Markdown?" | Contoh sintaks Markdown untuk menampilkan gambar dan menggunakan path relatif. | Menyesuaikan path gambar dengan lokasi aset di repositori serta memastikan nama file yang digunakan sesuai dengan file sebenarnya. | Sintaks penampilan gambar dapat diperiksa melalui tampilan README di GitHub. |
 | 19 Oktober 2026 | **Pemeriksaan kelengkapan Milestone 1** | "Bantu buat checklist untuk memeriksa kelengkapan perencanaan proyek aplikasi kasir sebelum melanjutkan ke tahap implementasi." | Checklist dokumentasi, target pengguna, fitur, rancangan antarmuka, repositori, dan riwayat commit. | Menggunakan checklist untuk mengidentifikasi bagian yang sudah tersedia dan bagian yang masih perlu dilengkapi oleh kelompok. | Kelengkapan awal proyek dapat ditinjau sebelum masuk ke tahap selanjutnya. |
+| 27 Okt 2026 | Membuat halaman statis dan JavaScript Milestone 2 | "Buatkan panduan mengerjakan Milestone 2 dari nol" | HTML 6 halaman, style.css, script.js | (jelaskan sendiri: cara kerja new Date() untuk jam dan checkValidity() untuk validasi) | (hasil uji: jam berjalan, form kosong ditolak, tampilan HP rapi) |
 
 **Catatan:** AI digunakan sebagai alat bantu dalam perencanaan dan dokumentasi. Hasil yang diberikan tetap ditinjau dan disesuaikan oleh anggota kelompok. Kolom hasil pengujian perlu diperbarui berdasarkan kondisi repositori dan hasil pemeriksaan yang benar-benar dilakukan.
 <p align="center">
