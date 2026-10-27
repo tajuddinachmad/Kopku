@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kopku - Form Bahan Baku</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopku - Form Bahan Baku</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="navbar">
-        <h2>Kopku Systems</h2>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">Kopku POS</div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="produk.html">Produk</a>
+      <a href="bahan_baku.html" class="active">Stok Bahan</a>
+      <a href="index.html">Keluar</a>
+    </nav>
+  </aside>
+  <main class="content">
+    <header class="topbar">
+      <span id="tanggal-waktu"></span>
+      <span>Ayu Dewi &bull; Kasir</span>
+    </header>
+    <div class="page">
+      <div class="page-head">
         <div>
-            <a href="bahan_baku.html">Kembali</a>
+          <h1>Tambah Bahan Baku</h1>
+          <p class="muted">Isi data bahan mentah untuk membuat menu</p>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="form-card">
-            <h2>Form Input Bahan Mentah</h2>
-            <br>
-            <form onsubmit="return validateForm()">
-                <div class="form-group">
-                    <label for="nama_bahan">Nama Bahan Baku:</label>
-                    <input type="text" id="nama_bahan" placeholder="Misal: Gula Aren Liquid">
-                </div>
-                <div class="form-group">
-                    <label for="kategori">Kategori:</label>
-                    <select id="kategori">
-                        <option>Biji Kopi</option>
-                        <option>Bahan Cair</option>
-                        <option>Sirup & Perasa</option>
-                        <option>Packaging / Kemasan</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="jumlah_stok">Jumlah Stok Initial:</label>
-                    <input type="number" step="0.1" id="jumlah_stok" placeholder="Misal: 10">
-                </div>
-                <div class="form-group">
-                    <label for="satuan">Satuan Unit:</label>
-                    <select id="satuan">
-                        <option>Kg</option>
-                        <option>Liter</option>
-                        <option>Gram</option>
-                        <option>Pcs</option>
-                        <option>Botol</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn" style="width: 100%;">Simpan Data</button>
-            </form>
+      </div>
+      <form class="form-card form-sempit form-validasi" novalidate>
+        <div class="pesan"></div>
+        <div class="form-group">
+          <label for="nama">Nama bahan</label>
+          <input type="text" id="nama" required placeholder="Contoh: Biji Kopi Arabika">
         </div>
+        <div class="form-group">
+          <label for="kategori">Kategori</label>
+          <select id="kategori" required>
+            <option value="">Pilih kategori</option>
+            <option>Biji kopi</option>
+            <option>Susu &amp; cairan</option>
+            <option>Air &amp; es</option>
+            <option>Sirup &amp; bubuk</option>
+            <option>Kemasan</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="satuan">Satuan</label>
+          <select id="satuan" required>
+            <option value="">Pilih satuan</option>
+            <option>gram</option><option>ml</option><option>liter</option><option>pcs</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="stok">Stok saat ini</label>
+          <input type="number" id="stok" required min="0" placeholder="0">
+        </div>
+        <div class="form-group">
+          <label for="minimum">Stok minimum (batas menipis)</label>
+          <input type="number" id="minimum" required min="0" placeholder="0">
+        </div>
+        <div class="form-group">
+          <label for="catatan">Catatan (opsional)</label>
+          <textarea id="catatan" rows="2" placeholder="Contoh: dibeli dari pemasok A"></textarea>
+        </div>
+        <div class="aksi-form">
+          <a href="bahan_baku.html" class="btn putih">Batal</a>
+          <button type="submit" class="btn">Simpan</button>
+        </div>
+      </form>
     </div>
-    <script src="assets/js/app.js"></script>
+  </main>
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
