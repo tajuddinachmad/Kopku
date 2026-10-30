@@ -97,7 +97,7 @@ Teknologi yang direncanakan mengikuti panduan PjBL Pemrograman Berbasis Web.
 
 ## 🖼️ Initial Wireframes
 
-**Tautan Figma:** [Lihat Desain Kopku] (https://www.figma.com/design/mHpjvTeEWUjznUgostC3lW/wireframe-kopku?node-id=0-1&p=f&t=rglFFdvbNnzS4wIL-0)
+**Tautan Figma:** [Lihat Desain Kopku](https://www.figma.com/design/mHpjvTeEWUjznUgostC3lW/wireframe-kopku?node-id=0-1&p=f&t=rglFFdvbNnzS4wIL-0)
 
 Wireframe awal perlu mencakup atau dapat dipetakan ke empat halaman inti Milestone 1:
 
