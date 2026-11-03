@@ -58,6 +58,7 @@ Pencatatan penjualan dan stok secara manual berisiko menyebabkan data sulit dite
 - Rencana pencatatan nama produk, harga, dan jumlah stok.
 - Pencarian atau filter produk.
 - Indikator stok menipis sebagai fitur yang direncanakan.
+- Pencatatan stok bahan baku
 
 ### 🛒 Sales Transaction
 
@@ -186,6 +187,14 @@ Commit harus dibuat secara bertahap. Jangan menggunakan pesan tersebut sebelum p
 1. **Peringatan stok menipis:** menjawab masalah barang habis saat ramai.
 2. **Cetak struk sederhana:** memberi bukti pembayaran untuk pelanggan.
 
+## Status Pengerjaan
+
+- Milestone 1: perencanaan, wireframe, dan repository (selesai)
+- Milestone 2: tampilan statis (login, dashboard, produk, stok
+  bahan, form), CSS responsif bertema kopi, JavaScript tanggal dan
+  waktu, validasi form, pencarian tabel, dan konfirmasi hapus
+  (selesai)
+
 ---
 
 ## Progres Milestone 2
@@ -210,6 +219,7 @@ validasi form, pencarian tabel, dan konfirmasi hapus (simulasi).
 | 18 Oktober 2026 | **Menampilkan gambar pada README** | "Bagaimana cara menambahkan gambar wireframe dari folder repositori ke dalam README.md menggunakan Markdown?" | Contoh sintaks Markdown untuk menampilkan gambar dan menggunakan path relatif. | Menyesuaikan path gambar dengan lokasi aset di repositori serta memastikan nama file yang digunakan sesuai dengan file sebenarnya. | Sintaks penampilan gambar dapat diperiksa melalui tampilan README di GitHub. |
 | 19 Oktober 2026 | **Pemeriksaan kelengkapan Milestone 1** | "Bantu buat checklist untuk memeriksa kelengkapan perencanaan proyek aplikasi kasir sebelum melanjutkan ke tahap implementasi." | Checklist dokumentasi, target pengguna, fitur, rancangan antarmuka, repositori, dan riwayat commit. | Menggunakan checklist untuk mengidentifikasi bagian yang sudah tersedia dan bagian yang masih perlu dilengkapi oleh kelompok. | Kelengkapan awal proyek dapat ditinjau sebelum masuk ke tahap selanjutnya. |
 | 27 Okt 2026 | Membuat halaman statis dan JavaScript Milestone 2 | "Buatkan panduan mengerjakan Milestone 2 dari nol" | HTML 6 halaman, style.css, script.js | (jelaskan sendiri: cara kerja new Date() untuk jam dan checkValidity() untuk validasi) | (hasil uji: jam berjalan, form kosong ditolak, tampilan HP rapi) |
+| 3 Nov 2026 | Memperbaiki tampilan  | "Tolong perbaiki CSS agar tidak hitam putih" | File assets/css/style.css | ISI SENDIRI | ISI SENDIRI |
 
 **Catatan:** AI digunakan sebagai alat bantu dalam perencanaan dan dokumentasi. Hasil yang diberikan tetap ditinjau dan disesuaikan oleh anggota kelompok. Kolom hasil pengujian perlu diperbarui berdasarkan kondisi repositori dan hasil pemeriksaan yang benar-benar dilakukan.
 <p align="center">
